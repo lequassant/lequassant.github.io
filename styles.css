@@ -1,0 +1,39 @@
+<!-- styles.css -->
+<style>
+:root {
+--background-colour: #111;
+--text-colour: #eee;
+--accent-colour: #ff4fa3;
+--card-background: #1a1a1a;
+}
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: var(--background-colour);
+color: var(--text-colour);
+}
+
+
+header {
+padding: 20px;
+background: var(--card-background);
+text-align: center;
+}
+
+
+nav a {
+margin: 0 15px;
+color: var(--accent-colour);
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.container {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+</style>
